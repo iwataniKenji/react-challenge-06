@@ -2,7 +2,7 @@ import { AppProps } from "next/app";
 import { ChakraProvider, theme } from "@chakra-ui/react";
 import "../styles/theme.ts";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider resetCSS theme={theme}>
       <Component {...pageProps} />
@@ -10,4 +10,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default MyApp;
+export default App;
