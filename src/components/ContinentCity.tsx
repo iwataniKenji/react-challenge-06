@@ -1,13 +1,25 @@
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
-export function ContinentCity({ }) {
+interface ContinentCityProps {
+  city: string;
+  country: string;
+  continent: string;
+  cityURL: string;
+}
+
+export function ContinentCity({
+  city,
+  country,
+  continent,
+  cityURL,
+}: ContinentCityProps) {
   return (
     <Box borderRadius="4px" overflow="hidden">
       <Image
-        src="/europe/united-kingdom.jpg"
+        src={`/${continent}/${cityURL}.png`}
         h="170px"
         w="100%"
-        alt="London landscape photography"
+        alt={`"${city} landscape photography`}
       />
       <Flex
         p="6"
@@ -20,19 +32,19 @@ export function ContinentCity({ }) {
       >
         <Flex direction="column">
           <Heading fontSize="xl" fontWeight="500">
-            Londres
+            {`${city}`}
           </Heading>
           <Text mt="3" fontSize="md" color="gray.500" fontWeight="500">
-            Reino Unido
+            {`${country}`}
           </Text>
         </Flex>
         <Image
-          src="/europe/united-kingdom-flag.png"
+          src={`/${continent}/${cityURL}-flag.png`}
           w="30px"
           h="30px"
           borderRadius="50%"
           objectFit="cover"
-          alt="United Kingdom flag"
+          alt={`${country} flag`}
         />
       </Flex>
     </Box>
