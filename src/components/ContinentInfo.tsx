@@ -68,7 +68,7 @@ export function ContinentInfo() {
               <PopoverArrow bg="gray.700" />
               <PopoverCloseButton />
               <PopoverBody fontWeight="400" fontSize="lg">
-                Paris, Lisboa, Berlin, Frankfurt, Stockholm, Colone, Oslo, Rome,
+                Paris, Lisboa, Berlim, Frankfurt, Estocolmo, Colônia, Oslo, Roma,
                 etc.
               </PopoverBody>
             </PopoverContent>
