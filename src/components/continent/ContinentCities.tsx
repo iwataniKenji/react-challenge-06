@@ -19,7 +19,6 @@ export function ContinentCities() {
           country="Reino Unido"
           continent="europe"
           cityURL="united-kingdom"
-          flagURL="united-kingdom-flag"
         />
         <ContinentCity
           city="Paris"

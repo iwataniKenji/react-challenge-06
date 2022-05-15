@@ -1,8 +1,8 @@
 import { Flex } from "@chakra-ui/react";
-import { ContinentBanner } from "../../components/ContinentBanner";
-import { ContinentCities } from '../../components/ContinentCities';
-import { ContinentContent } from '../../components/ContinentContent';
-import { Header } from "../../components/Header";
+import { ContinentBanner } from "../../components/continent/ContinentBanner";
+import { ContinentCities } from '../../components/continent/ContinentCities';
+import { ContinentContent } from '../../components/continent/ContinentContent';
+import { Header } from "../../components/home/Header";
 
 export default function Continent() {
   return (

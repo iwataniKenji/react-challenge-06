@@ -1,8 +1,8 @@
 import { Box, Flex, Heading } from "@chakra-ui/react";
-import { Banner } from "../components/Banner";
-import { Header } from "../components/Header";
-import { Slider } from '../components/Slider';
-import { TopicGrid } from "../components/TopicGrid";
+import { Banner } from "../components/home/Banner";
+import { Header } from "../components/home/Header";
+import { Slider } from "../components/home/Slider";
+import { TopicGrid } from "../components/home/TopicGrid";
 
 export default function Home() {
   return (
