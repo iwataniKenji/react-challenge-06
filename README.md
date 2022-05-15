@@ -1,5 +1,5 @@
 <section align="center">
-    <img src="./public/logo.svg" />
+    <img src="./public/logo.png" />
 </section>
 
 ---
